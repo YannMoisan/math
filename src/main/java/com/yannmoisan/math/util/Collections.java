@@ -13,7 +13,7 @@ public class Collections {
 	}
 	
 	
-	public static List<Integer> fromTo(int from, int to) {
+	public static List<Integer> range(int from, int to) {
 		List<Integer> ret = new ArrayList<Integer>();
 		for (int i=from; i<=to; i++) {
 			ret.add(i);
